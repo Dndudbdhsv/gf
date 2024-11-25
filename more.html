@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background: rgb(0, 0, 0);">
+         
+         <div class="topnav">
+            <div class="uno">
+                <a class="active" href="#Home">home</a>
+            </div>
+            <div class="uno">
+                <a class="active"  href="#about">About</a>
+            </div>
+            <div class="uno">
+                <a class="active" href="#more">More</a>
+            </div>
+            <div class="uno">
+                <a class="active" href="#contact">Contact</a>
+            </div>
+        </div>
+            <div class="layout-container">
+                <div> <img width="300px" src="gold-fish2.jpg" alt=""> </div>
+                <div> <img width="300px" src="gold-fish3.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish4.jpg" alt=""></div>
+                <div> <img width="300px" src="Gold_fish1.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish5.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish6.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish7.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish8.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish9.jpg" alt=""></div>
+                <div> <img width="300px" src="gold-fish10.jpg" alt=""></div>
+            </div>
+            
+
+            <style>
+            img{
+            display: block;
+            margin-bottom: 1em;
+            width: 100%;
+            border-radius: 20px;
+            border: 3px, gold;
+            border-style: solid;
+            animation: fadeIn 5s;
+            }
+
+            .layout-container{
+            padding-top: 40px;
+            width: min(1000px, 100%);
+            margin: 0 auto;
+            columns: 4 300px;
+            column-gap: 1em;}
+
+            .uno{
+            display: inline-block;
+            padding-inline: 100px;}
+
+            .topnav{
+            display: flex;
+            flex-wrap: wrap;   
+            justify-content: space-between;
+            align-items: center;
+
+            height: 50px;
+            background-color: black;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px yellow;}
+            .active{
+            color: gold;
+            }
+            @keyframes fadeIn{
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            </style>
+            
+        
+
+
+
+
+        </body>
+    </head>
+</html>
